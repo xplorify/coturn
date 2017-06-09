@@ -2,8 +2,7 @@ FROM ubuntu:16.04
 MAINTAINER Goran Jovanov <goran.jovanov@gmail.com>
 
 VOLUME /conf
-
-VOLUME /opt/coturn/ 
+VOLUME /cert
 
 ENV MIN_PORT=40000
 ENV MAX_PORT=50000
